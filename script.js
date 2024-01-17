@@ -7,8 +7,6 @@ let emailError = document.querySelector(".emailError")
 let phoneError = document.querySelector (".phoneError")
 let emailRegex = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|.(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
 
-let x ="lente"
-console.log(x.length);
 
 submitBtn.addEventListener("click",function () {
 
